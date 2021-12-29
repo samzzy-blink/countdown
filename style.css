@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 4.5rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.coming-soon{
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+}
+.countdown{
+    display: flex ;
+    justify-content: space-around;
+    text-align: center;
+}
+.day,.hour,.minute,.second{
+    font-size: 2.5rem;
+}
+.waiting{
+    height: 50vh;
+}
